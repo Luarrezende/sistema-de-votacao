@@ -17,7 +17,7 @@ public class Principal {
     Scanner sc = new Scanner(System.in);
 
     boolean cadastrarCandidatas = true;
-    // boolean cadastrarEleitoras = true;
+    boolean cadastrarEleitoras = true;
 
     while (cadastrarCandidatas) {
       System.out.println("Cadastrar pessoa candidata?");
