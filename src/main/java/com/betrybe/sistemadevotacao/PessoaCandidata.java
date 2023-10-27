@@ -13,7 +13,7 @@ public class PessoaCandidata extends Pessoa {
    * Ela contém informações e métodos relacionados a candidatos.
    */
   public PessoaCandidata(String nome, int numero) {
-    super(nome);
+    super.nome = nome;
     this.numero = numero;
     this.votos = 0;
   }
